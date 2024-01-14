@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'auditype';
+}
+
+@font-face {
+    font-family: auditype;
+    src: url("../font/AudiType-Bold_4.03.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #252839;
+
+} */
+h3{
+    position: relative;
+    font-size: 10vw;
+    color: #000000;
+    -webkit-text-stroke: 0vw #000000;
+    text-transform: uppercase;
+}
+
+
+h3::before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #ffffff;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 0px solid #7467B2;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        display: none;
+    }
+  }

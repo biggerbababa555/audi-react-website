@@ -1,0 +1,65 @@
+/* Header.css */
+@font-face {
+    font-family: auditype;
+    src: url("../font/AudiType-Bold_4.03.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.logo {
+    img {
+        height: 40px;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    float: right;
+
+    a {
+        font-family: auditype;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 10px;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #747474;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        display: none;
+    }
+    .content {
+        flex-direction: row;
+        align-items: flex-start;
+
+        a {
+            margin: 10px 0;
+        }
+    }
+}
+
+
+.logopad{
+    padding-left: 15px;
+}

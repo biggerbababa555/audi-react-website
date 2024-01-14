@@ -1,0 +1,31 @@
+@font-face {
+    font-family: auditype;
+    src: url("../font/AudiType-Bold_4.03.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1{
+    font-family: 'auditype';
+    color: white;
+    font-size: 30px;
+}
+
+.padtop{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
+h2{
+    font-family: 'auditype';
+    color: white;
+    font-size: 20px;
+    text-align:left;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.padtop2{
+    padding-top: 20px;
+}

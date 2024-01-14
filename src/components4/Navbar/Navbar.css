@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+/* Style for the main navbar container */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the content */
+    display: flex; /* Display children in a row */
+    justify-content: space-between; /* Space out the logo and navigation links */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Style for the logo */
+  .logo {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text for the logo */
+  }
+  
+  /* Style for the navigation links */
+  .nav-links a {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 20px; /* Space out the links */
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-links a:hover {
+    border-bottom: 2px solid white; /* Add a border under the link on hover */
+  }
+  

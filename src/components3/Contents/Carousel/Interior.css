@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    img {
+      /* Adjust styles for smaller screens */
+      height: auto;
+      width: 100%;
+    }
+  }

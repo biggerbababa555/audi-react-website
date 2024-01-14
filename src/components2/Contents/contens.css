@@ -1,0 +1,77 @@
+body{ 
+    background: #030303;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'auditype';
+}
+
+@font-face {
+  font-family: auditype;
+  src: url("../font/AudiType-Bold_4.03.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+h1 {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.container {
+ width: 100%;
+ justify-content: center;
+}
+
+
+
+/* Media query for responsive design */
+@media only screen and (max-width: 768px) {
+  h1 {
+      font-size: 80px;   
+      display: none;
+    }
+      
+}
+
